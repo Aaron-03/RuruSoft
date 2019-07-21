@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    #content-contact {
+        min-height: 88.8vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .cont-contact-1 {
+        position: initial;
+        padding-top: 5.5rem;
+    }
+    .cont-contact-body {
+        flex-wrap: wrap;
+    }
+    .cont-contact-body > div:nth-child(1) {
+        width: 100%;
+    }
+    .cont-contact-body > div:nth-child(2) {
+        width: 100%;
+    }
+}

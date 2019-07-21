@@ -1,0 +1,4 @@
+Rojo - #FF4850 - #CC252D
+Amarrilo - #F8FF95 - #F8FF95
+Negro - black
+Blanco - white

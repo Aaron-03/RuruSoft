@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .cont-index-about-1 {
+        padding-top: 8.7rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cont-index-about-1 > div > div > div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .cont-index-about-1 > div > div > div:nth-child(2) div {
+        width: 100%;
+    }
+}

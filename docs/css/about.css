@@ -1,0 +1,142 @@
+
+.nav-menu > li:nth-child(2) {
+    border-image: var(--color-red-yellow);
+    border-top: 2.5px solid;
+    border-image-slice: 1;
+    animation: none;
+}
+.nav-menu > li:nth-child(2) a {
+    color: var(--color-yellow);
+}
+.cont-index-about {
+    background: white;
+    overflow: hidden;
+}
+.cont-index-about-1 {
+    /* background: url("../img/bg-idx-01.jpg");
+    background-position: center center; */
+    padding-top: 5.5rem;
+    overflow: hidden;
+    background: var(--color-negro);
+}
+.cont-index-about-1 > div {
+    background:  linear-gradient(to right, rgba(0, 0, 0, 1), rgba(204, 37, 45, 1));
+    height: 100%;
+}
+.cont-index-about-1 > div > div > div:nth-child(1) {
+    padding: 1rem;
+}
+.cont-index-about-1 > div > div {
+    max-width: 60rem;
+    margin: auto;
+}
+.cont-index-about > h2 {
+    padding: 0.3rem 0rem;
+}
+.content-line-bottom {
+    width: 100%;
+    background: dimgray;
+    height: 2px;
+}
+.content-line-bottom div {
+    width: 25%;
+    background: var(--color-yellow);
+    height: 2px;
+}
+.cont-index-about-1 {
+    text-shadow: 1.5px 1.5px 1px black;
+    color: white;
+}
+.cont-index-about-1 p {
+    text-align: justify;
+    padding: 1rem;
+}
+.cont-index-about-1 > div > div > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.cont-index-about-1 > div > div > div:nth-child(2) div {
+    float: right;
+    margin: 0.5rem 1rem 0rem;
+    width: 100rem;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.cont-index-about-1 > div > div > div:nth-child(2) div img {
+    float: right;
+    width: 100%;
+}
+.btn-about-1 {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-yellow);
+    background: transparent;
+    width: 5rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 10pt;
+    font-family: Pragati-regular;
+}
+.btn-about-1:hover {
+    border: 1px solid white;
+    background: transparent;
+    color: var(--color-yellow);
+}
+
+/*---------------------------------------------------------------*/
+.cont-nosotros-about {
+    padding: 1rem;
+    background: white;
+}
+.nosotros-about {
+    display: block;
+    margin: auto;
+    max-width: 60rem;
+}
+.nosotros-about-head {
+    padding: 1rem;
+}
+.nosotros-about-head .content-line-bottom {
+    width: 100%;
+    background: dimgray;
+    height: 2px;
+}
+.nosotros-about-head .content-line-bottom div {
+    width: 25%;
+    background: var(--color-red-yellow);
+    height: 2px;
+}
+.nosotros-about-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+.about-body-element {
+    min-width: 10rem;
+    max-width: 12rem;
+    padding: 0.5rem;
+}
+.about-body-element > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.about-body-element > div img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100px;
+}
+.about-body-element p {
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: rgba(105, 105, 105, 0.1);
+    border-radius: 10px;
+}

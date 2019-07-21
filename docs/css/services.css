@@ -1,0 +1,124 @@
+.nav-menu > li:nth-child(3) {
+    border-image: var(--color-red-yellow);
+    border-top: 2.5px solid;
+    border-image-slice: 1;
+    animation: none;
+}
+.nav-menu > li:nth-child(3) a {
+    color: var(--color-yellow);
+}
+#content-header-all {
+    background: rgba(0, 0, 0, 0.87);
+}
+#content-service {
+    padding-top: 5.5rem;
+}
+.cont-service-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 80%;
+    max-width: 72rem;
+    margin: auto;
+    margin-top: 2rem;
+    background: white;
+}
+.cont-service-element {
+    width: 30%;
+    margin: 1rem;
+    min-width: 20rem;
+    max-width: 35rem;
+    border: 1px solid dimgray;
+    transition: all 0.3s;
+}
+.service-element-head {
+    padding-bottom: 0.2rem;
+}
+.service-element-head h2 {
+    padding: 0.5rem;
+    text-align: center;
+}
+.service-element-head > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    background: var(--color-negro);
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+}
+.service-element-head > div:nth-child(2) span {
+    color: white;
+    font-family: Pragati-bold, sans-serif;
+    font-size: 26pt;
+    margin: auto 0.1rem;
+}
+.service-element-head > div:nth-child(2) span:last-child {
+    font-size: 12pt;
+}
+.cont-line-bottom {
+    width: 80%;
+    height: 1px;
+    background: dimgray;
+    margin: auto;
+}
+.service-element-head > div:last-child {
+    width: 5rem;
+    height: 4rem;
+    margin: 0.5rem auto;
+    overflow: hidden;
+}
+.service-element-head > div:last-child img {
+    height: 100%;
+}
+.element-body-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
+}
+.element-body-desc > div {
+    width: 2rem;
+    height: 2rem;
+}
+.element-body-desc > div img {
+    width: 100%;
+    height: 100%;
+}
+.element-body-button {
+    text-align: center;
+    padding: 1rem;
+}
+.element-body-button button {
+    width: 50%;
+    min-width: 7rem;
+    max-width: 10rem;
+    height: 2.1rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-image: var(--color-red-yellow);
+    border-image-slice: 1;
+    outline-color: black;
+    font-family: Pragati-bold, sans-serif;
+    background: transparent;
+    transition: color, background 0.3s;
+}
+.element-body-button button:hover {
+    background: var(--color-negro);
+    color: white;
+    outline-color: transparent;
+}
+.content-service-desc {
+    width: 80%;
+    max-width: 72rem;
+    margin: auto;
+    padding: 2rem 0rem;
+    color: dimgray;
+}
+.content-service-desc h5 {
+    margin-bottom: 0.5rem;
+}
+.content-service-desc p {
+    font-size: 10pt;
+    text-align: justify;
+}

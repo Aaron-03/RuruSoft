@@ -1,0 +1,18 @@
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .cont-portfolio {
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cont-portfolio {
+        width: 100%;
+    }
+    .portfolio-element {
+        flex-direction: column;
+    }
+    .portfolio-element-carrousel {
+        margin-bottom: 0.5rem;
+    }
+}

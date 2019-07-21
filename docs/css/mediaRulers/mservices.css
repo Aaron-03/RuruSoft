@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 1050px) and (min-width: 800px) {
+    #content-service {
+        padding-top: 8rem;
+    }
+    .cont-service-1 {
+        flex-wrap: wrap;
+    }
+    .cont-service-element {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cont-service-1 {
+        flex-wrap: wrap;
+    }
+    .cont-service-element {
+        width: 100%;
+    }
+}
+
